@@ -6,6 +6,7 @@
     <title>Resha's Page</title>
     <!-- style -->
     <link rel="stylesheet" href="/assets/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- icons -->
     <link
       rel="stylesheet"
@@ -40,7 +41,7 @@
       >
     </nav>
 
-    <div class="container">
+    <div class="container" data-aos="fade-left">
       <section id="third">
         <div class="block-1">
           <h1>My Projects</h1>
@@ -142,5 +143,10 @@
         </div>
       </section>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
