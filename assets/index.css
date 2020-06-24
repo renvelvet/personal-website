@@ -15,7 +15,7 @@
   --complimentary-color: #e2979c;
   --contrast-color: #f2e527;
   --light-color: #9bdeac;
-  --mono-color: #4225b8;
+  --mono-color: #303960;
 }
 
 /* ----------------- CSS: Navbar ----------------- */
@@ -130,10 +130,12 @@ nav {
   font-weight: lighter;
   font-family: "Name";
   background-color: var(--complimentary-color);
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 #second .block-1 p {
   line-height: 2;
+  margin: 0;
+  padding-left: 5px;
 }
 #second .block-2 {
   display: flex;
